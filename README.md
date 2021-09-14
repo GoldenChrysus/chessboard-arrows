@@ -7,9 +7,10 @@ Right-click to draw arrows and circles, left-click to clear the drawings.
 
 ## Fork Goals
 - Allow per-draw colors
-- Keep a history of visible draws
-- Allow resetting by calling the arrows API rather than the Canvas API
-- Allow programmatically setting draws
+- Keep a registry of visible draws
+- Allow resetting by calling the arrows API rather than the Canvas API (in order to clear internal draw registry)
+- Allow removing an arrow by redrawing it with the same coordinates (similar to Chessground)
+- Allow programmatically setting draws, with optional permanence (cannot be removed except by reset)
 
 ## Setup
 Run the following npm command to install the package to `node_modules`.
