@@ -5,6 +5,12 @@ A library that extends any chessboard library to allow users to draw arrows and 
 
 Right-click to draw arrows and circles, left-click to clear the drawings.
 
+## Fork Goals
+- Allow per-draw colors
+- Keep a history of visible draws
+- Allow resetting by calling the arrows API rather than the Canvas API
+- Allow programmatically setting draws
+
 ## Setup
 Run the following npm command to install the package to `node_modules`.
 
